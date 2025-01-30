@@ -60,7 +60,7 @@ const MenuLinks = ({ isOpen }: { isOpen: boolean }) => {
                 <TooltipTrigger asChild>
                   <Link href={href}>
                     <motion.div
-                      className="flex gap-4 items-center py-3 rounded-md px-4"
+                      className="flex gap-4 items-center py-3 rounded-md px-3"
                       variants={linkVariants}
                       animate={
                         isActive ? "active" : "inactive"

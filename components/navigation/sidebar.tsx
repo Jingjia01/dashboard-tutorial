@@ -22,7 +22,7 @@ export default function Sidebar() {
             }`}
         >
             <h2
-              className={`text-sm max-md:hidden ${
+              className={`text-bg font-bold max-md:hidden ${
                 isOpen && "hidden"
               }`}
             >
